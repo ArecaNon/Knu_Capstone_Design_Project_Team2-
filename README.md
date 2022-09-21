@@ -17,7 +17,7 @@
   모델 설계 정량화
   x ai 가능하면 할 예정
   
-  황윤호 : 논문 레퍼런스및 수의료 사례 서치, 학회 서치, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부
-  조준표 : 이미지 분류, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부
-  조현수 : 크롤링, 간츠 차트 작성및 수정, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 이미지 분류, 논문 리딩법 공부
-  이효준 : 이미지 분류, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부
+  황윤호 : 논문 레퍼런스및 수의료 사례 서치, 학회 서치, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부  
+  조준표 : 이미지 분류, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부  
+  조현수 : 크롤링, 간츠 차트 작성및 수정, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 이미지 분류, 논문 리딩법 공부  
+  이효준 : 이미지 분류, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부  
