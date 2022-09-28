@@ -33,3 +33,4 @@
   vgg 간단한 예제 colab에서 굴려보기  
   논문리딩 공부 해보기  
   논문리딩 공부 https://github.com/Seonghoon-Yu/AI_Paper_Review  
+  지난주에 받은 개인과제들 계속하기
