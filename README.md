@@ -21,3 +21,15 @@
   조준표 : 이미지 분류, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부  
   조현수 : 크롤링, 간츠 차트 작성및 수정, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 이미지 분류, 논문 리딩법 공부  
   이효준 : 이미지 분류, 모델 공부및 사용할 라이브러리 공부(openCV, pythorch, tensorflow), 논문 리딩법 공부  
+
+비대면 회의 2의차(09 28 수요일)    
+  이번 주에 한 Tasks
+  이효준 : 이미지분류, 모델 공부(vgg, resnet, densenet, mobile net)  
+  조현수 : 크롤링 완료, 간트 차트 제작 완료 및 지속적인 피드백, 이미지분류, 모델 공부(vgg, resnet, densenet)   
+  조준표 : 이미지분류, 모델 공부(resnet, densenet), 논문리딩 약간  
+  황윤호 : 이미지분류,  논문리딩, 논문 서치, 학회 서치, 라이브러리 공부  
+  
+  이번주  
+  vgg 간단한 예제 colab에서 굴려보기  
+  논문리딩 공부 해보기  
+  논문리딩 공부 https://github.com/Seonghoon-Yu/AI_Paper_Review  
