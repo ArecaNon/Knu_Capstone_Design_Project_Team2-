@@ -1,9 +1,14 @@
-https://wikidocs.net/137252
-https://deep-learning-study.tistory.com/473
-https://deep-learning-study.tistory.com/528
-https://gaussian37.github.io/dl-concept-densenet/
-https://jayhey.github.io/deep%20learning/2017/10/15/DenseNet_2/
-https://sotudy.tistory.com/15
-https://deep-learning-study.tistory.com/532
-https://deep-learning-study.tistory.com/549
-https://wolfy.tistory.com/245
+vggnet 구현 : https://deep-learning-study.tistory.com/521
+vgg 와 그외에 모델들 : https://bskyvision.com/504
+
+한땀한땀 딥러닝 컴퓨터 비전 백과사전 - Resnet :  https://wikidocs.net/137252
+Resnet review : https://deep-learning-study.tistory.com/473
+
+Densenet review : https://deep-learning-study.tistory.com/528
+DenseNet 설명 및 코드 : https://gaussian37.github.io/dl-concept-densenet/
+DesseNet 설명(1,2,3 있음) : https://jayhey.github.io/deep%20learning/2017/10/13/DenseNet_1/
+
+Mobilenet review : https://sotudy.tistory.com/15
+MobileNet Review : https://deep-learning-study.tistory.com/532
+PyTorch로 MobileNet 구현 : https://deep-learning-study.tistory.com/549
+MobileNet 논문 리뷰 & 구현 : https://wolfy.tistory.com/245
