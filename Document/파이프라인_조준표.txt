@@ -1,0 +1,72 @@
+Load data & Data analysis:
+구글과 네이버를 통해 크롤링한 이미지 데이터를 모음
+사용할 데이터만 남기기 위해 분류
+학습하거나 훈련시킬때 aI가 이미지를 잘 보기 위한 전처리 작업
+
+Data Split:
+데이터를 종류별로 라벨링
+이미지 데이터를 동일한 크기로 조정(224,224)
+학습용 데이터와 테스트 데이터를 9:1 비율로 나눔
+
+Build & Train model:
+mobilenet을 기본 모델을 사용
+drop out 필요하면 사용=> 과적합 방지하기 위해 사용
+Sequential Layer를 사용하여 한층씩 쌓음
+Sequential Layer: 레이어를 선형으로 연결하여 구성, 레이어 instance는 사용자가 결정, loss 함수, optimizer, metrics에 관한 학습 방식등 정의하여 컴파일해야함
+Flatten Layer를 사용할 경우 학습 파라미터의 수가 많이 늘어나므로 Global Average Pooling을 활용하여 Fully connected layer 구성
+마지막 요소는 최종 fully connected layer에 해당하며 예측하고자 하는 클래스 개수와 활성화 함수 softmax를 사용
+loss fuction : 데이터를 토대로 산출한 모델의 예측 값과 실제 값과의 차이 표현한 지표
+loss fuction 종류
+-Binary CrossentropyPermalink : 클래스가 두 개인 이진 분류 문제에서 사용
+-Categorical Crossentropy : 클래스가 여러 개인 다중 분류 문제에서 사용
+-Sparse Categorical CrossentropyPermalink: 클래스가 여러 개인 다중 분류 문제에서 사용, label 이 0,1,2 중에서 하나 값으로 가짐
+=> 4개인 클레스를 분류하기에 categorical crossentrop 를 사용하는 것이 좋다고 판단
+optimizer 종류
+-SGD(Stochastic gradient decent): full-batch가 아닌 mini batch로 학습을 진행하는 것
+-Momentum:현재 batch로만 학습하는 것이 아니라 이전의 batch 학습결과도 반영한다 (SGD에 momentum개념 추가)
+-AdaGrad : 학습을 통해 크게 변동이 있었던 가중치에 대해서는 학습률을 감소시키고 학습을 통해 아직 가중치의 변동이 별로 없었던 가중치는 학습률을 증가시켜서 학습이 되게끔 한다.
+-RMSProp : AdaGrad에서 복잡한 다차원 곡면 function에서 학습률 0에 도달하는 문제 보완하기 위함
+		AdaGrad의 h에 hyper parameter p가 추가되었다.
+		 p가 작을수록 가장 최신의 기울기를 더 크게 반영한다.
+-Adam : Momentum과 RMSProp를 융합한 방법
+적은 연산량을 지닌 first-order gradients 기반 stochastic optimization 알고리즘
+=>현재 adam의 성능이 제일 좋다고 평가되어 adam 사용
+
+learning_rate=0.0001, decay=0.01 으로 설정
+
+모델 학습 진행(epoch와 batch size 지정)
+
+Model Validation:
+여러번 돌려 보아서 정확도가 일정하게 높은지 확인
+그외 실행시나 실행 결과에 오류 확인
+
+Model serving:
+후에 어플에 임베딩 하기 위해 tflite로 변환
+탑재후 실행 확인
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
